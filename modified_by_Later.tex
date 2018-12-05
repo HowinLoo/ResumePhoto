@@ -1,0 +1,190 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{setspace}
+%\usepackage{wrapfig}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+
+% 基本信息 % 需要重写basicInfo这个函数！！！
+%\{XXX}
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=.15\textwidth]{photo.jpg}
+%\end{figure}
+%\vspace{0.5cm}
+
+%\basicInfo{
+%  \faBriefcase{求职意向：用户关系管理员}\\
+%  \faWechat{277058248} \textperiodcentered\
+%  \phone{(+86) 15992681902} \textperiodcentered\
+%  \email{277058248@qq.com}
+%  }
+%
+%\vspace{0.5cm}
+\begin{figure}[h]
+\begin{minipage}[h]{0.4\linewidth}%并排放两张图片，每张占行的0.4，下同 
+\begin{spacing}{1.5}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+
+\href{http://github.com/howinloo}{\faUser \sffamily\large{ \ 王大陆}}  & \\
+
+\faHeart \sffamily\large{ \ 数据分析师}  & \\
+
+\faWechat \sffamily\large{ \ 277058248}  & \\
+
+\faPhone \sffamily\large{ \  (+86)13600000000} & \\
+
+\faEnvelope \sffamily\large{ \  277058248@qq.com}  & \\
+
+
+%\faBriefcase{求职意向：用户关系管理员} & \\
+%{\color{labelgrey}微信\faWechat }$\,$277058248  \\
+%{\color{labelgrey}邮箱\faEnvelope }$\,$277058248@qq.com \\
+%{\color{labelgrey}邮箱\faEnvelope }$\,$277058248@qq.com & \\
+%{\color{labelgrey}\faPhone}$\,$15992681902 & \\
+%\cna{\phone{(+86) 15992681902}}$\,$15992681902 & \\
+%{\color{labelgrey}\faHome}$\,$广东省珠海市香洲区金凤路6号 & \\
+%{\color{labelgrey}\faNeuter}$\,$610031 & \\
+\end{tabular*}
+\end{spacing}
+\end{minipage} 
+\qquad
+\begin{minipage}[h]{0.55\linewidth}
+\rightline{\includegraphics[width=.28\textwidth]{photo144_192.jpg}}
+%\caption{卢浩明}
+\end{minipage}
+\end{figure}
+\vspace{0.05mm}
+
+% 教育背景 %
+\section{\faGraduationCap\  教育背景:北京理工大学珠海学院}
+\datedsubsection{\textit{学士} 应用统计学（大数据方向）}{2015 -- 至今}
+\begin{itemize}[parsep=0.5ex]
+  \item 机器学习、文本挖掘、数据科学工具箱、高等数学、数学建模、线性代数、矩阵代数
+  \item 概率论、数理统计、应用时间序列分析、
+应用多元统计分析、回归分析与方差分析
+  \item Python、R、LaTeX、C、SPSS、SAS、数据库及其应用
+  \item 宏观经济学、微观经济学、证券投资模拟实践、运筹学、管理学
+\end{itemize}
+
+
+% 实习经历 %
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{航空学院媒体中心}}{2015年9月 -- 2016年1月}
+\role{干事}{岗位：微信公众号运营}
+\begin{itemize}
+  \item 负责航空学院微信公众号的运营
+  \item 收集学院每日的新闻素材，讨论选定每日的新闻内容
+  \item 编辑排版新闻，及时将新闻发布到公众号上
+\end{itemize}
+
+\datedsubsection{\textbf{数理与土木工程学院}}{2016年2月 -- 2016年6月}
+\role{实习}{岗位：办公室助理}
+\begin{itemize}
+  \item 整理学院相关数据，录入电脑，提交给办公室老师
+  \item 协助办公室老师文件的审查，转交，确认工作
+\end{itemize}
+
+
+
+
+% 项目一 %
+%\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
+%\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+%\begin{onehalfspacing}
+%分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
+%\begin{itemize}
+%  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
+%  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
+%  \item xxx (尽量使用量化的客观结果)
+%\end{itemize}
+%\end{onehalfspacing}
+
+
+% 项目二 %
+%\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
+%\role{\LaTeX, Python}{个人项目}
+%\begin{onehalfspacing}
+%优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+%\begin{itemize}
+%  \item 容易定制和扩展
+%  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
+%  \item 支持 FontAwesome 4.5.0
+%\end{itemize}
+%\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+
+% IT技能 %
+\section{\faCogs\ 专业技能}
+% increase linespacing [parsep=0.5ex]
+\role{熟练操作}{Pyhon}
+\begin{itemize}[parsep=0.5ex]
+  \item 机器学习库：Keras、TensorFlow
+  \item 基础库：Numpy、Pandas、Requests、Matplotlib
+  \item 其他库：Scrapy、Django
+\end{itemize}
+
+\role{熟练操作}{R语言}
+\begin{itemize}[parsep=0.5ex]
+  \item 绘图包：ggplot2
+\end{itemize}
+
+\role{熟练操作}{MySql}
+
+\role{基本操作}{Latex、Git、Excel、Word、PowerPoint}
+
+
+% 获奖情况 %
+\section{\faTrophy\ 获奖情况}
+\begin{itemize}
+    \item \datedline{北京理工大学珠海学院航空学院第四届微博微信运营大赛（\textit{第三名}）}{2015 年12 月}
+    \item \datedline{创客入门赛 FIRST TEAM（\textit{团体二等奖}）}{2016 年04 月}
+\end{itemize}
+%\datedline{\textit{第三名}, 北京理工大学珠海学院航空学院第四届微博微信运营大赛}{2013 年6 月}
+%\datedline{其他奖项}{2015}
+
+
+% 其他 %
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+%  \item \faRssSquare\ Blog: http://laterfork.top/
+  \item \faGithub\ Github: https://github.com/HowinLoo
+  \item \faLanguage\ Langue: 英语 - 熟练(CET-4)、粤语 - 熟练、普通话 - 熟练
+  \item \faDesktop\ 计算机：MS Office高级应用（全国计算机等级考试二级）
+\end{itemize}
+
+
+% 几种图标 %
+%\section{\faGithub\ Github}
+%\section{\faRssSquare\ Blog}
+%\section{\faBriefcase\ 求职意向}
+%\section{\faTrophy\ 获奖情况}
+%\section{\faDesktop\ 电脑}
+%\section{\faLanguage\ 语言}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+
+\end{document}
