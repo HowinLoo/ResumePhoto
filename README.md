@@ -19,7 +19,7 @@
 ### 宇宙使用指南
 * Fork → git clone
 * WinEdt7.0 → 打开 → modified\_by_Later.tex → **编码：UTF-8**（不然会乱码）
-* **编译方式XeLaTeX** → 查看modified\_by_Later.pdf
+* **编译方式XeLaTeX** → 查看[modified\_by_Later.pdf](https://raw.githubusercontent.com/HowinLoo/Resume_ModifiedByLater/master/modified_by_Later.pdf)
 * [选用其他图标](http://mirrors-wan.geekpie.club/CTAN/fonts/fontawesome/doc/fontawesome.pdf)
 
 
