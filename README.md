@@ -16,6 +16,10 @@
 ### 个人想法
 一直都是用resume-zh_CN.tex直接生成pdf直接投简历的，但是一直在纠结加上相片这件事情上，还跟别人开玩笑说打印出来直接贴一张就可以了。最后经过多次的尝试，作为一个LaTeX知识一般的人，终于将相片加进去了，主要是使用figure（图片）、minipage（分栏）、tabular*（表格）排出来的。后来想改写一下resume.cls文件的函数的，添加一个信息头函数即可，实在没看懂怎么写.cls里面的函数。
 
+### 效果展示
+
+![modified_by_Later](/modified_by_Later.png)
+
 ### 宇宙使用指南
 * Fork → git clone
 * WinEdt7.0 → 打开 → modified\_by_Later.tex → **编码：UTF-8**（不然会乱码）
